@@ -1,0 +1,111 @@
+header{
+    background-color: rgb(155, 155, 226);
+margin-top: -1.5%;
+background-attachment: fixed;
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-attachment: fixed;
+
+       
+}
+}
+.villa{
+    color: white;
+}
+
+#Rooms {
+    color: white;
+}
+#extra{
+    color: white;
+}
+
+body{
+    height:500px ;
+    /* background-attachment:scroll ; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(assect/resort.jpg); */
+    background-image: url(assect/resort\ 2.jpg);
+}
+.room
+{
+    background-color: aquamarine;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+}
+button
+{
+    background-color: aqua;
+}
+#hotel{
+    display: grid;
+    /* grid-column: auto auto; */
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+
+    .bed{
+        img{
+        height:300px ;
+        width: 500px;
+    }
+    button
+    {
+        color: white;
+        background-color: blue;
+        height: 45px;
+        width: 150px;
+    }
+
+}
+}
+#aboutus{
+    background-color: aliceblue;
+    padding-top: 2%;
+    margin-top: 2%;
+
+#content
+{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+    .star{
+        img{
+            height: 150px;
+            width: 200px;
+        }
+    }
+}
+}
+#extra{
+    display: grid;
+    /* grid-column: auto auto; */
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+
+    .service{
+        img{
+        height: 100px;
+        width: 150px;
+    }
+}
+}
+#contact{
+    background-color: whitesmoke;
+    img{
+        height: 20px;
+        width: 25px;
+    }
+}
